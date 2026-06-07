@@ -59,7 +59,6 @@ Todas las capturas de pantalla generadas por los scripts de Selenium durante las
 La organización principal de los archivos y directorios del repositorio es la siguiente:
 
 SistemaDeCamaras/
-│
 ├── css/
 │   └── style.css
 ├── JS/
@@ -69,8 +68,7 @@ SistemaDeCamaras/
 │   └── registro.html
 ├── evidencias/                  
 │   ├── login_exitoso.png
-│   ├── pytest_vista_registro.png
-│   └── ...
+│   └── pytest_vista_registro.png
 ├── .venv/                       
 ├── index.html                   
 ├── principal.html               
