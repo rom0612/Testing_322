@@ -70,15 +70,16 @@ La organización principal de los archivos y directorios del repositorio es la s
     * `login_exitoso.png`
     * `pytest_vista_registro.png`
     * `...`
-  * **.venv/** * `index.html`                   
-  * `principal.html`               
-  * `ejemplo_0_busqueda.py`
-  * `ejemplo_1_carga.py`           
-  * `ejemplo_2_ingreso_correcto.py` 
-  * `ejemplo_3_ingreso_incorrecto.py`
-  * `pumavision_test.py`           
-  * `adicional_test.py`
-  * `README.md`                 
+  * **.venv/** 
+    * `index.html`                   
+    * `principal.html`               
+    * `ejemplo_0_busqueda.py`
+    * `ejemplo_1_carga.py`           
+    * `ejemplo_2_ingreso_correcto.py` 
+    * `ejemplo_3_ingreso_incorrecto.py`
+    * `pumavision_test.py`           
+    * `adicional_test.py`
+    * `README.md`                 
 
 ---
 ## Notas adicionales
