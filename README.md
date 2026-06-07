@@ -83,10 +83,4 @@ La organización principal de los archivos y directorios del repositorio es la s
 
 ---
 ## Notas adicionales
-* Equipo de Desarrollo (Grupo 5 - NITRA tech):
-  * María Fernanda Román Ramos (Líder)
-  * Noé García Carrillo (Analista de Requerimientos)
-  * Fernanda Ivonne Rodríguez Trejo (Dev)
-  * Alma Rosa Velasco Ojeda (Arquitecto)
-  * Tania Isabel Santamaría Hernández (QA)
 * Consideraciones de Testing: Si se realizan modificaciones en el archivo `index.html` (clases `entradaTexto` o ID de botones), es necesario actualizar los selectores en los scripts de Python para evitar fallos de ejecución.
