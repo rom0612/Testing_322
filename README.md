@@ -58,27 +58,25 @@ Todas las capturas de pantalla generadas por los scripts de Selenium durante las
 ## Estructura del proyecto
 La organización principal de los archivos y directorios del repositorio es la siguiente:
 
-SistemaDeCamaras/
-├── css/
-│   └── style.css
-├── JS/
-│   ├── script.js
-│   └── supabase.js
-├── pages/
-│   └── registro.html
-├── evidencias/                  
-│   ├── login_exitoso.png
-│   └── pytest_vista_registro.png
-├── .venv/                       
-├── index.html                   
-├── principal.html               
-├── ejemplo_0_busqueda.py
-├── ejemplo_1_carga.py           
-├── ejemplo_2_ingreso_correcto.py 
-├── ejemplo_3_ingreso_incorrecto.py
-├── pumavision_test.py           
-├── adicional_test.py
-└── README.md                    
+* **SistemaDeCamaras/**
+  * **css/**
+    * `style.css`
+  * **JS/**
+    * `script.js`
+    * `supabase.js`
+  * **pages/**
+    * `registro.html`
+  * **evidencias/** * `login_exitoso.png`
+    * `pytest_vista_registro.png`
+  * **.venv/** * `index.html`                   
+  * `principal.html`               
+  * `ejemplo_0_busqueda.py`
+  * `ejemplo_1_carga.py`           
+  * `ejemplo_2_ingreso_correcto.py` 
+  * `ejemplo_3_ingreso_incorrecto.py`
+  * `pumavision_test.py`           
+  * `adicional_test.py`
+  * `README.md`                  
 
 ---
 ## Notas adicionales
