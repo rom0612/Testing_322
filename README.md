@@ -66,8 +66,10 @@ La organización principal de los archivos y directorios del repositorio es la s
     * `supabase.js`
   * **pages/**
     * `registro.html`
-  * **evidencias/** * `login_exitoso.png`
+  * **evidencias/** 
+    * `login_exitoso.png`
     * `pytest_vista_registro.png`
+    * `...`
   * **.venv/** * `index.html`                   
   * `principal.html`               
   * `ejemplo_0_busqueda.py`
@@ -76,7 +78,7 @@ La organización principal de los archivos y directorios del repositorio es la s
   * `ejemplo_3_ingreso_incorrecto.py`
   * `pumavision_test.py`           
   * `adicional_test.py`
-  * `README.md`                  
+  * `README.md`                 
 
 ---
 ## Notas adicionales
