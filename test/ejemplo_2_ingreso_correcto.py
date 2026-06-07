@@ -2,10 +2,12 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
+import os
 
 # Arrange: Preparar
 driver = webdriver.Chrome()
 driver.get("https://rom0612.github.io/SistemaDeCamaras/")
+time.sleep(2)
 
 # Act: Ejecutar
 campos = driver.find_elements(By.CLASS_NAME,"entradaTexto")
@@ -16,6 +18,9 @@ campos[1].send_keys("admin123")
 driver.find_element(By.ID,"btnIngresar").click()
 
 time.sleep(5)
+
+driver.save_screenshot("evidencias/login_exitoso.png")
+print("Captura guardada correctamente en la carpeta 'evidencias'.")
 
 # A: Verificar
 assert "principal.html" in driver.current_url

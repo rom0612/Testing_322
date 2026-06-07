@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
+import io
 #driver=navegador
 driver = webdriver.Chrome()
 #abrir navegador
@@ -14,6 +15,6 @@ time.sleep(2)
 busqueda.send_keys(Keys.ENTER)
 
 time.sleep(5)
-
+driver.save_screenshot("evidencias/ejemplo_0_busqueda.png")
 #cerrar navegador
 driver.quit()
